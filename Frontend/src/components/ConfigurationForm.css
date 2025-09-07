@@ -1,0 +1,136 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .config-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #000;
+    border-radius: 10px; 
+    max-width: 400px; 
+  }
+  
+  .config-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #222;
+  }
+  
+  .slider-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .slider-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .slider-control button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .slider-control button:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .btn-submit, .btn-stop {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-submit {
+    background-color: #28a745;
+    margin-left: 25%;
+    padding: 10px 20px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+  }
+  
+  .btn-stop {
+    background-color: #dc3545; 
+    margin-right: 25%;
+    padding: 10px 30px;
+
+  }
+  
+  .btn-stop:hover {
+    background-color: #c82333;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
